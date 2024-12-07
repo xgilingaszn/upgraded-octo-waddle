@@ -63,7 +63,7 @@ with open("x.csv", "r") as csv_file:
 
                 # Isi form dengan slug
             driver.find_element(By.CSS_SELECTOR, "input[placeholder='your-name']").send_keys(slug)
-            time.sleep(7)         
+            time.sleep(30)         
 
 
             def inputslug():
@@ -75,7 +75,7 @@ with open("x.csv", "r") as csv_file:
 
                 # Isi form dengan slug
                 driver.find_element(By.CSS_SELECTOR, "input[placeholder='your-name']").send_keys(slug)
-                time.sleep(7)         
+                time.sleep(35)         
 
 
             try:
